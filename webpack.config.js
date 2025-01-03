@@ -15,6 +15,10 @@ module.exports = {
         test: /\.css$/, // Match CSS files
         use: ["style-loader", "css-loader"], // Inject CSS into the DOM
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i, // Match image file extensions
+        type: "asset/resource", // Built-in Webpack 5 asset handling
+      },
     ],
   },
   plugins: [
