@@ -1,15 +1,23 @@
 {
-  "name": "dropdown-menu",
+  "name": "dallin-dropdown-menu",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "dropdown",
+    "menu",
+    "UI",
+    "component",
+    "reusable"
+  ],
+  "author": "Dallin Johnson <13dallin13@gmail.com>",
+  "license": "MIT",
+  "description": "A reusable dropdown menu component for web projects",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.3",
@@ -20,5 +28,16 @@
   },
   "dependencies": {
     "url-loader": "^4.1.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/yourusername/dallin-dropdown-menu#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/dallin-dropdown-menu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/dallin-dropdown-menu/issues"
   }
 }

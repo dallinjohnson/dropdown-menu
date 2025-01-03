@@ -1,7 +1,4 @@
 import "./styles.css";
-import App from "./components/App";
+import Dropdown from "./components/Dropdown";
 
-document.addEventListener("DOMContentLoaded", () => {
-  const app = App();
-  app.init();
-});
+export default Dropdown;
